@@ -9,6 +9,11 @@ public class ButtonObject : MonoBehaviour
         SceneLoader.Instance.LoadNewScene("FactoryBuild");
     }
 
+    public void LoadTheatre()
+    {
+        SceneLoader.Instance.LoadNewScene("Menu");
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         LoadGame();
